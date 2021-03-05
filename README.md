@@ -20,3 +20,13 @@ This deployment will start Zookeeper, HMaster and HRegionserver in separate cont
 
 # Distributed
 To run distributed hbase on docker swarm see this [doc](./distributed/README.md):
+
+# 注意
+要在客户端的主机上绑定Hbase实例的ip，比如：
+
+192.168.10.163 hbase-master
+192.168.10.163 hbase-region
+
+192.168.10.163就是Hbase实例的ip地址
+
+
